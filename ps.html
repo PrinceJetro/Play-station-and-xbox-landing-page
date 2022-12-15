@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <style>
+        body{
+            background-image: url("ps.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-top: 25%;
+        }
+
+        form{
+            display: none;
+        }
+
+       
+    </style>
+</head>
+<body>
+
+    <button class="btn btn-primary" onclick="fi()">Claim your Play Station 5 now !!!</button>
+
+
+    <form>
+        <label for="firstName">
+             FirstName: 
+            <input type="text" name="firstname">
+        </label><br>
+        <label for="lastName">
+            LastName: 
+            <input type="text" name="lasttname">
+        </label><br>
+        <label for="email">
+            Email: 
+            <input type="email" name="email">
+        </label><br>
+        <label for="phoneNo">
+            Phone Number :
+            <input type="number" name="phoneNo">
+        </label><br>
+        <label for="address">
+            Address
+            <input type="textarea" name="address">
+        </label><br>
+        <input type="submit" value="Submit"style="background-color: blue; color: white;border: none">
+    </form>
+    
+
+
+
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
